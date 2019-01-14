@@ -13,13 +13,15 @@ import UIKit
 class AppleTableCellController: TableCellController {
     
     fileprivate let apple: Apple
+    private let coordinator: ViewControllerCoordinator
     
-    init(apple:Apple) {
+    init(apple:Apple, coordinator: ViewControllerCoordinator) {
         self.apple = apple
+        self.coordinator = coordinator
     }
     
     fileprivate static var cellIdentifier: String {
-        //return String(describing: type(of: AppleTableViewCell.self))
+        
         return String(describing: AppleTableViewCell.self)
     }
     
@@ -34,7 +36,8 @@ class AppleTableCellController: TableCellController {
     }
     
     func didSelectCell() {
-       
+        
+        coordinator.postSelected(url: URL.init(string: "https://www.apple.com")!)
     }
     
 }

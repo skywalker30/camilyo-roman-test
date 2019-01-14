@@ -25,6 +25,20 @@ struct FeedDataProvider {
         .google(Google(text:"Google")),
         .yahoo(Yahoo(text:"Yahoo!")),
         .yahoo(Yahoo(text:"Yahoo!")),
+        .apple(Apple(text:"Apple")),
+        .google(Google(text:"Google")),
+        .yahoo(Yahoo(text:"Yahoo!")),
+        .yahoo(Yahoo(text:"Yahoo!")),
+        .google(Google(text:"Google")),
+        .apple(Apple(text:"Apple")),
+        .google(Google(text:"Google")),
+        .yahoo(Yahoo(text:"Yahoo!")),
+        .yahoo(Yahoo(text:"Yahoo!")),
+        .google(Google(text:"Google")),
+        .apple(Apple(text:"Apple")),
+        .google(Google(text:"Google")),
+        .yahoo(Yahoo(text:"Yahoo!")),
+        .yahoo(Yahoo(text:"Yahoo!")),
         .google(Google(text:"Google"))
         
         ]

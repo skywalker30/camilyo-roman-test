@@ -19,17 +19,17 @@ class CellControllerFactory {
     
     
     
-    func cellControllers(from elements: [FeedElement]) -> [TableCellController] {
+    func cellControllers(from elements: [FeedElement], coordinator: ViewControllerCoordinator ) -> [TableCellController] {
         // Matching each type of data to the right Cell Controller is now something we only do once. Here.
         
         return elements.map { (element) in
             switch element {
             case .apple(let apple):
-                return AppleTableCellController(apple: apple)
+                return AppleTableCellController(apple: apple, coordinator: coordinator)
             case .google(let google):
-                return GoogleTableCellController(google: google)
+                return GoogleTableCellController(google: google, coordinator: coordinator)
             case .yahoo(let yahoo):
-                return YahooTableCellController(yahoo: yahoo)
+                return YahooTableCellController(yahoo: yahoo, coordinator: coordinator)
             }
         }
     }

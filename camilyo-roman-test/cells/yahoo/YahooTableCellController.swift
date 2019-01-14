@@ -13,14 +13,16 @@ import UIKit
 class YahooTableCellController: TableCellController {
     
     fileprivate let yahoo: Yahoo
+    private let coordinator: ViewControllerCoordinator
     
-    init(yahoo:Yahoo) {
+    init(yahoo:Yahoo, coordinator: ViewControllerCoordinator) {
         self.yahoo = yahoo
+        self.coordinator = coordinator
     }
 
     fileprivate static var cellIdentifier: String {
-//        return String(describing: type(of: YahooTableViewCell.self))
-        return String(describing: YahooTableViewCell.self.self)
+
+        return String(describing: YahooTableViewCell.self)
     }
     
     static func registerCell(on tableView: UITableView) {
@@ -35,6 +37,7 @@ class YahooTableCellController: TableCellController {
     
     func didSelectCell() {
         
+        coordinator.postSelected(url: URL.init(string: "https://www.yahoo.com")!)
     }
     
 }

@@ -58,8 +58,7 @@ private extension ViewController {
         
         let data = FeedDataProvider.harcodedData
         
-        
-        cellControllers = cellControllerFactory.cellControllers(from: data)
+        cellControllers = cellControllerFactory.cellControllers(from: data, coordinator: ViewControllerCoordinator(viewController: self))
         
         tableView.reloadData()
     }

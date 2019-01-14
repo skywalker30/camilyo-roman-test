@@ -15,6 +15,7 @@
 		88EA847721EBE33C008A0675 /* AppleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EA847521EBE33C008A0675 /* AppleTableViewCell.xib */; };
 		88EA848121EBE883008A0675 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA848021EBE883008A0675 /* FeedModels.swift */; };
 		88EA848321EBE924008A0675 /* FeedDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA848221EBE924008A0675 /* FeedDataProvider.swift */; };
+		8A59B8D921EC9A8F00950DC6 /* ViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A59B8D821EC9A8F00950DC6 /* ViewControllerCoordinator.swift */; };
 		8AC7938821EB37B700C44E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7938721EB37B700C44E79 /* AppDelegate.swift */; };
 		8AC7938A21EB37B700C44E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7938921EB37B700C44E79 /* ViewController.swift */; };
 		8AC7938D21EB37B700C44E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7938B21EB37B700C44E79 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		88EA847521EBE33C008A0675 /* AppleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleTableViewCell.xib; sourceTree = "<group>"; };
 		88EA848021EBE883008A0675 /* FeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModels.swift; sourceTree = "<group>"; };
 		88EA848221EBE924008A0675 /* FeedDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataProvider.swift; sourceTree = "<group>"; };
+		8A59B8D821EC9A8F00950DC6 /* ViewControllerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCoordinator.swift; sourceTree = "<group>"; };
 		8AC7938421EB37B700C44E79 /* camilyo-roman-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "camilyo-roman-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC7938721EB37B700C44E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC7938921EB37B700C44E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				88EA847B21EBE602008A0675 /* cells */,
 				8AC7938721EB37B700C44E79 /* AppDelegate.swift */,
 				8AC7938921EB37B700C44E79 /* ViewController.swift */,
+				8A59B8D821EC9A8F00950DC6 /* ViewControllerCoordinator.swift */,
 				8AC7938B21EB37B700C44E79 /* Main.storyboard */,
 				8AC7938E21EB37B800C44E79 /* Assets.xcassets */,
 				8AC7939021EB37B800C44E79 /* LaunchScreen.storyboard */,
@@ -289,6 +292,7 @@
 				88EA847221EBE308008A0675 /* GoogleTableViewCell.swift in Sources */,
 				88EA846D21EBE00E008A0675 /* YahooTableCellController.swift in Sources */,
 				8AC7938A21EB37B700C44E79 /* ViewController.swift in Sources */,
+				8A59B8D921EC9A8F00950DC6 /* ViewControllerCoordinator.swift in Sources */,
 				88EA847621EBE33C008A0675 /* AppleTableViewCell.swift in Sources */,
 				8AC7938821EB37B700C44E79 /* AppDelegate.swift in Sources */,
 				88EA848121EBE883008A0675 /* FeedModels.swift in Sources */,

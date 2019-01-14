@@ -13,9 +13,11 @@ import UIKit
 class GoogleTableCellController: TableCellController {
     
     fileprivate let google: Google
+    private let coordinator: ViewControllerCoordinator
     
-    init(google:Google) {
+    init(google:Google, coordinator: ViewControllerCoordinator) {
         self.google = google
+        self.coordinator = coordinator
     }
     
     fileprivate static var cellIdentifier: String {
@@ -35,6 +37,7 @@ class GoogleTableCellController: TableCellController {
     
     func didSelectCell() {
         
+        coordinator.postSelected(url: URL.init(string: "https://google.com")!)
     }
     
 }
