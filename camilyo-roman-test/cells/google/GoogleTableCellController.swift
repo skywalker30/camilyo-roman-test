@@ -14,6 +14,7 @@ class GoogleTableCellController: TableCellController {
     
     fileprivate let google: Google
     private let coordinator: ViewControllerCoordinator
+    let urlPath = "https://google.com"
     
     init(google:Google, coordinator: ViewControllerCoordinator) {
         self.google = google
@@ -37,7 +38,7 @@ class GoogleTableCellController: TableCellController {
     
     func didSelectCell() {
         
-        coordinator.postSelected(url: URL.init(string: "https://google.com")!)
+        coordinator.postSelected(url: URL.init(string: urlPath)!)
     }
     
 }

@@ -14,6 +14,7 @@ class YahooTableCellController: TableCellController {
     
     fileprivate let yahoo: Yahoo
     private let coordinator: ViewControllerCoordinator
+    let urlPath = "https://www.yahoo.com"
     
     init(yahoo:Yahoo, coordinator: ViewControllerCoordinator) {
         self.yahoo = yahoo
@@ -37,7 +38,7 @@ class YahooTableCellController: TableCellController {
     
     func didSelectCell() {
         
-        coordinator.postSelected(url: URL.init(string: "https://www.yahoo.com")!)
+        coordinator.postSelected(url: URL.init(string: urlPath)!)
     }
     
 }
