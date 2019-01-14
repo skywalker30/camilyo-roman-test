@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88EA846B21EBDFF8008A0675 /* GoogleTableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA846A21EBDFF8008A0675 /* GoogleTableCellController.swift */; };
+		88EA846D21EBE00E008A0675 /* YahooTableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA846C21EBE00E008A0675 /* YahooTableCellController.swift */; };
+		88EA847221EBE308008A0675 /* GoogleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA847021EBE308008A0675 /* GoogleTableViewCell.swift */; };
+		88EA847321EBE308008A0675 /* GoogleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EA847121EBE308008A0675 /* GoogleTableViewCell.xib */; };
+		88EA847621EBE33C008A0675 /* AppleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA847421EBE33C008A0675 /* AppleTableViewCell.swift */; };
+		88EA847721EBE33C008A0675 /* AppleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EA847521EBE33C008A0675 /* AppleTableViewCell.xib */; };
+		88EA848121EBE883008A0675 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA848021EBE883008A0675 /* FeedModels.swift */; };
+		88EA848321EBE924008A0675 /* FeedDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA848221EBE924008A0675 /* FeedDataProvider.swift */; };
 		8AC7938821EB37B700C44E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7938721EB37B700C44E79 /* AppDelegate.swift */; };
 		8AC7938A21EB37B700C44E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7938921EB37B700C44E79 /* ViewController.swift */; };
 		8AC7938D21EB37B700C44E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7938B21EB37B700C44E79 /* Main.storyboard */; };
 		8AC7938F21EB37B800C44E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7938E21EB37B800C44E79 /* Assets.xcassets */; };
 		8AC7939221EB37B800C44E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7939021EB37B800C44E79 /* LaunchScreen.storyboard */; };
+		8AC7939A21EB48D800C44E79 /* CellControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7939921EB48D800C44E79 /* CellControllerFactory.swift */; };
+		8AC7939C21EB491F00C44E79 /* TableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7939B21EB491F00C44E79 /* TableCellController.swift */; };
+		8AC793A621EB4C3100C44E79 /* AppleTableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC793A521EB4C3100C44E79 /* AppleTableCellController.swift */; };
+		8AFE08F121EC815B00A27CE6 /* YahooTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE08EF21EC815B00A27CE6 /* YahooTableViewCell.swift */; };
+		8AFE08F221EC815B00A27CE6 /* YahooTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE08F021EC815B00A27CE6 /* YahooTableViewCell.xib */; };
+		8BCB9243863CAB8515F51A87 /* Pods_camilyo_roman_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3BD2DD0C53CECCDA28E6CB /* Pods_camilyo_roman_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03C71CC51A237B27A4C9B393 /* Pods-camilyo-roman-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camilyo-roman-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-camilyo-roman-test/Pods-camilyo-roman-test.debug.xcconfig"; sourceTree = "<group>"; };
+		105FBE744CD90C4C813324FC /* Pods-camilyo-roman-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camilyo-roman-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-camilyo-roman-test/Pods-camilyo-roman-test.release.xcconfig"; sourceTree = "<group>"; };
+		3A3BD2DD0C53CECCDA28E6CB /* Pods_camilyo_roman_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camilyo_roman_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EA846A21EBDFF8008A0675 /* GoogleTableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTableCellController.swift; sourceTree = "<group>"; };
+		88EA846C21EBE00E008A0675 /* YahooTableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooTableCellController.swift; sourceTree = "<group>"; };
+		88EA847021EBE308008A0675 /* GoogleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTableViewCell.swift; sourceTree = "<group>"; };
+		88EA847121EBE308008A0675 /* GoogleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleTableViewCell.xib; sourceTree = "<group>"; };
+		88EA847421EBE33C008A0675 /* AppleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTableViewCell.swift; sourceTree = "<group>"; };
+		88EA847521EBE33C008A0675 /* AppleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleTableViewCell.xib; sourceTree = "<group>"; };
+		88EA848021EBE883008A0675 /* FeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModels.swift; sourceTree = "<group>"; };
+		88EA848221EBE924008A0675 /* FeedDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataProvider.swift; sourceTree = "<group>"; };
 		8AC7938421EB37B700C44E79 /* camilyo-roman-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "camilyo-roman-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC7938721EB37B700C44E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC7938921EB37B700C44E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +47,11 @@
 		8AC7938E21EB37B800C44E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC7939121EB37B800C44E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AC7939321EB37B800C44E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC7939921EB48D800C44E79 /* CellControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellControllerFactory.swift; sourceTree = "<group>"; };
+		8AC7939B21EB491F00C44E79 /* TableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellController.swift; sourceTree = "<group>"; };
+		8AC793A521EB4C3100C44E79 /* AppleTableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTableCellController.swift; sourceTree = "<group>"; };
+		8AFE08EF21EC815B00A27CE6 /* YahooTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooTableViewCell.swift; sourceTree = "<group>"; };
+		8AFE08F021EC815B00A27CE6 /* YahooTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YahooTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCB9243863CAB8515F51A87 /* Pods_camilyo_roman_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23CF9B742B393859902CD26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BD2DD0C53CECCDA28E6CB /* Pods_camilyo_roman_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E1E6EE1C0F8504071976F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C71CC51A237B27A4C9B393 /* Pods-camilyo-roman-test.debug.xcconfig */,
+				105FBE744CD90C4C813324FC /* Pods-camilyo-roman-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88EA847B21EBE602008A0675 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				8A59B8D721EC94D700950DC6 /* yahoo */,
+				8A59B8D621EC94D100950DC6 /* google */,
+				8A59B8D521EC94C800950DC6 /* apple */,
+				88EA847E21EBE635008A0675 /* factory */,
+				88EA847D21EBE62E008A0675 /* controllers */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		88EA847D21EBE62E008A0675 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7939B21EB491F00C44E79 /* TableCellController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		88EA847E21EBE635008A0675 /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7939921EB48D800C44E79 /* CellControllerFactory.swift */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+		88EA847F21EBE820008A0675 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				88EA848021EBE883008A0675 /* FeedModels.swift */,
+				88EA848221EBE924008A0675 /* FeedDataProvider.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8A59B8D521EC94C800950DC6 /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				8AC793A521EB4C3100C44E79 /* AppleTableCellController.swift */,
+				88EA847421EBE33C008A0675 /* AppleTableViewCell.swift */,
+				88EA847521EBE33C008A0675 /* AppleTableViewCell.xib */,
+			);
+			path = apple;
+			sourceTree = "<group>";
+		};
+		8A59B8D621EC94D100950DC6 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				88EA846A21EBDFF8008A0675 /* GoogleTableCellController.swift */,
+				88EA847021EBE308008A0675 /* GoogleTableViewCell.swift */,
+				88EA847121EBE308008A0675 /* GoogleTableViewCell.xib */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		8A59B8D721EC94D700950DC6 /* yahoo */ = {
+			isa = PBXGroup;
+			children = (
+				88EA846C21EBE00E008A0675 /* YahooTableCellController.swift */,
+				8AFE08EF21EC815B00A27CE6 /* YahooTableViewCell.swift */,
+				8AFE08F021EC815B00A27CE6 /* YahooTableViewCell.xib */,
+			);
+			path = yahoo;
+			sourceTree = "<group>";
+		};
 		8AC7937B21EB37B700C44E79 = {
 			isa = PBXGroup;
 			children = (
 				8AC7938621EB37B700C44E79 /* camilyo-roman-test */,
 				8AC7938521EB37B700C44E79 /* Products */,
+				7E1E6EE1C0F8504071976F91 /* Pods */,
+				23CF9B742B393859902CD26B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +171,8 @@
 		8AC7938621EB37B700C44E79 /* camilyo-roman-test */ = {
 			isa = PBXGroup;
 			children = (
+				88EA847F21EBE820008A0675 /* models */,
+				88EA847B21EBE602008A0675 /* cells */,
 				8AC7938721EB37B700C44E79 /* AppDelegate.swift */,
 				8AC7938921EB37B700C44E79 /* ViewController.swift */,
 				8AC7938B21EB37B700C44E79 /* Main.storyboard */,
@@ -71,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC7939621EB37B800C44E79 /* Build configuration list for PBXNativeTarget "camilyo-roman-test" */;
 			buildPhases = (
+				7B6204F770CBE1B15A289A55 /* [CP] Check Pods Manifest.lock */,
 				8AC7938021EB37B700C44E79 /* Sources */,
 				8AC7938121EB37B700C44E79 /* Frameworks */,
 				8AC7938221EB37B700C44E79 /* Resources */,
@@ -123,20 +243,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC7939221EB37B800C44E79 /* LaunchScreen.storyboard in Resources */,
+				88EA847321EBE308008A0675 /* GoogleTableViewCell.xib in Resources */,
 				8AC7938F21EB37B800C44E79 /* Assets.xcassets in Resources */,
+				88EA847721EBE33C008A0675 /* AppleTableViewCell.xib in Resources */,
+				8AFE08F221EC815B00A27CE6 /* YahooTableViewCell.xib in Resources */,
 				8AC7938D21EB37B700C44E79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B6204F770CBE1B15A289A55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-camilyo-roman-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AC7938021EB37B700C44E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC793A621EB4C3100C44E79 /* AppleTableCellController.swift in Sources */,
+				88EA846B21EBDFF8008A0675 /* GoogleTableCellController.swift in Sources */,
+				8AC7939C21EB491F00C44E79 /* TableCellController.swift in Sources */,
+				88EA847221EBE308008A0675 /* GoogleTableViewCell.swift in Sources */,
+				88EA846D21EBE00E008A0675 /* YahooTableCellController.swift in Sources */,
 				8AC7938A21EB37B700C44E79 /* ViewController.swift in Sources */,
+				88EA847621EBE33C008A0675 /* AppleTableViewCell.swift in Sources */,
 				8AC7938821EB37B700C44E79 /* AppDelegate.swift in Sources */,
+				88EA848121EBE883008A0675 /* FeedModels.swift in Sources */,
+				8AFE08F121EC815B00A27CE6 /* YahooTableViewCell.swift in Sources */,
+				8AC7939A21EB48D800C44E79 /* CellControllerFactory.swift in Sources */,
+				88EA848321EBE924008A0675 /* FeedDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +438,7 @@
 		};
 		8AC7939721EB37B800C44E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C71CC51A237B27A4C9B393 /* Pods-camilyo-roman-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +457,7 @@
 		};
 		8AC7939821EB37B800C44E79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105FBE744CD90C4C813324FC /* Pods-camilyo-roman-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
